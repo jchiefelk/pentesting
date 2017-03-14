@@ -1,0 +1,30 @@
+.RichEditor-root {
+   font-family: 'Georgia', serif;
+   font-size: 14px;
+
+ }
+ .RichEditor-editor {
+   flex: 1;
+   cursor: text;
+   font-size: 18px;
+   background: #ddd;
+   max-height: 100%;
+ }
+ .RichEditor-editor .public-DraftEditorPlaceholder-root,
+ .RichEditor-editor .public-DraftEditor-content {
+    background: #ddd;
+ }
+ .RichEditor-editor .public-DraftEditor-content {
+   background: #ddd;
+ }
+ .RichEditor-editor .RichEditor-blockquote {
+   font-family: 'Hoefler Text', 'Georgia', serif;
+   font-style: italic;
+ }
+ .RichEditor-editor .public-DraftStyleDefault-pre > pre {
+   font-family: 'Georgia', serif;
+   font-size: 18px;
+   cursor: text;
+   background: #ddd;
+   flex: 1;
+ }
